@@ -1,0 +1,39 @@
+{
+  "uaa": {
+    "tenantmode": "dedicated",
+    "sburl": "https://internal-xsuaa.authentication.ap21.hana.ondemand.com",
+    "subaccountid": "7480bc09-e60b-4711-a920-21cbe6244760",
+    "credential-type": "binding-secret",
+    "clientid": "sb-5d66d53e-4946-4971-89c6-b1a8cfa34030!b122629|abap-trial-service-broker!b18767",
+    "xsappname": "5d66d53e-4946-4971-89c6-b1a8cfa34030!b122629|abap-trial-service-broker!b18767",
+    "clientsecret": "6b69c931-66ff-4c07-9c16-67a4c8f564aa$ECqy4ln1BPY21BiJOQ_WPR29UPmGX2IEIuspu1XOriI=",
+    "serviceInstanceId": "5d66d53e-4946-4971-89c6-b1a8cfa34030",
+    "url": "https://1a55c8a8trial.authentication.ap21.hana.ondemand.com",
+    "uaadomain": "authentication.ap21.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzQX66X6DVZ9T6cWtm409\nawZURX6rOYoniM0QTnjDErJryyDQSUJtpiuZLBAKqSQDGVc71I3E8KrOedpMAW8W\nG1ow6Vwi9VhZss1bY2jTzJrUKxTXZu97obE5ydLEPXjE0Fvkqrnlx8io8lVuGcgT\nHFA4ItJW1oCZKGMhb3UU/dmU3Xn55viZoQhCk/RSr5r22n6HpAjwX10I9bSGeqNU\nnxLldP/V+zW7sUvsk24x6qMOqcXbss2v1drmumKtkIOLEhYrHrpYJ96myRovzoeJ\n1XM62hEc2uri9Y+QxRIc+vjDqgTd1d0g9yHK6LDgnk2i3FzTntkqwT4B8vnAHPQD\n7QIDAQAB\n-----END PUBLIC KEY-----",
+    "apiurl": "https://api.authentication.ap21.hana.ondemand.com",
+    "identityzone": "1a55c8a8trial",
+    "identityzoneid": "7480bc09-e60b-4711-a920-21cbe6244760",
+    "tenantid": "7480bc09-e60b-4711-a920-21cbe6244760",
+    "zoneid": "7480bc09-e60b-4711-a920-21cbe6244760"
+  },
+  "url": "https://6da5c376-cfa8-4af4-913f-2061aa8356c8.abap.ap21.hana.ondemand.com",
+  "sap.cloud.service": "com.sap.cloud.abap",
+  "systemid": "TRL",
+  "endpoints": {
+    "abap": "https://6da5c376-cfa8-4af4-913f-2061aa8356c8.abap.ap21.hana.ondemand.com"
+  },
+  "catalogs": {
+    "abap": {
+      "path": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2",
+      "type": "sap_abap_catalog_v1"
+    }
+  },
+  "binding": {
+    "env": "cf",
+    "version": "1.0.1.1",
+    "type": "oauth",
+    "id": "6b69c931-66ff-4c07-9c16-67a4c8f564aa"
+  },
+  "preserve_host_header": true
+}
